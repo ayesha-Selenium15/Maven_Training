@@ -1,0 +1,1 @@
+{"uuid":"225b6f71-5278-4b97-929b-3603d9c25f94","name":"Surefire suite","children":["8e275275-c953-4ac6-8bf1-0afc1ba1b190"],"befores":[{"name":"killDrivers","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1717554582157,"stop":1717554582759}],"afters":[],"start":1717554581704,"stop":1717554641649}

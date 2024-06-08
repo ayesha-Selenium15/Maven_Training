@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Suite1" parallel="methods" thread-count="2">
+    <parameter name = "browser" value="chrome"/>
+    <listeners>
+        <listener class-name="com.util.AllureListener"/>
+        </listeners>
+    <test name = "test1">
+        <classes>
+            <class name = "com.tests.SampleTest" />
+            <class name = "com.tests.FirefoxTest" />
+            <class name = "com.tests.ChromeTest" />
+        </classes>
+    </test>
+</suite>

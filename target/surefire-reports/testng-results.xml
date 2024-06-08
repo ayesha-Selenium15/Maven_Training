@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T07:59:42 IST" name="Surefire suite" finished-at="2024-06-05T08:00:41 IST" duration-ms="58770">
+    <groups>
+      <group name="smoke">
+        <method signature="SampleTest.capture_screenshot()[pri:0, instance:com.tests.SampleTest@9573584]" name="capture_screenshot" class="com.tests.SampleTest"/>
+        <method signature="SampleTest.capture_screenshot1()[pri:0, instance:com.tests.SampleTest@9573584]" name="capture_screenshot1" class="com.tests.SampleTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="SampleTest.capture_screenshot()[pri:0, instance:com.tests.SampleTest@9573584]" name="capture_screenshot" class="com.tests.SampleTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-06-05T07:59:42 IST" name="Surefire test" finished-at="2024-06-05T08:00:41 IST" duration-ms="58770">
+      <class name="com.tests.FirefoxTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.FirefoxTest@5082d622]" started-at="2024-06-05T07:59:56 IST" name="setUp" finished-at="2024-06-05T08:00:10 IST" duration-ms="14589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:1, instance:com.tests.FirefoxTest@5082d622]" started-at="2024-06-05T08:00:17 IST" name="testTitle" finished-at="2024-06-05T08:00:17 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="clickOffers()[pri:2, instance:com.tests.FirefoxTest@5082d622]" started-at="2024-06-05T08:00:17 IST" name="clickOffers" finished-at="2024-06-05T08:00:20 IST" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOffers -->
+        <test-method signature="clickOrders()[pri:3, instance:com.tests.FirefoxTest@5082d622]" started-at="2024-06-05T08:00:20 IST" name="clickOrders" finished-at="2024-06-05T08:00:23 IST" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FirefoxTest@5082d622]" started-at="2024-06-05T08:00:37 IST" name="tearDown" finished-at="2024-06-05T08:00:41 IST" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.FirefoxTest -->
+      <class name="com.tests.SampleTest">
+        <test-method is-config="true" signature="killDrivers(java.lang.String)[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T07:59:41 IST" name="killDrivers" finished-at="2024-06-05T07:59:42 IST" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDrivers -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:23 IST" name="initializeDriver" finished-at="2024-06-05T08:00:34 IST" duration-ms="10508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="init_PageObjects()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:34 IST" name="init_PageObjects" finished-at="2024-06-05T08:00:34 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_PageObjects -->
+        <test-method signature="capture_screenshot()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:34 IST" name="capture_screenshot" finished-at="2024-06-05T08:00:35 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_screenshot -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:35 IST" name="tearDown" finished-at="2024-06-05T08:00:35 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=capture_screenshot status=SUCCESS method=SampleTest.capture_screenshot()[pri:0, instance:com.tests.SampleTest@9573584] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init_PageObjects()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:35 IST" name="init_PageObjects" finished-at="2024-06-05T08:00:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_PageObjects -->
+        <test-method signature="capture_screenshot1()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:35 IST" name="capture_screenshot1" finished-at="2024-06-05T08:00:35 IST" duration-ms="546" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [3000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [3000]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.tests.SampleTest.capture_screenshot1(SampleTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_screenshot1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:35 IST" name="tearDown" finished-at="2024-06-05T08:00:36 IST" duration-ms="534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=capture_screenshot1 status=FAILURE method=SampleTest.capture_screenshot1()[pri:0, instance:com.tests.SampleTest@9573584] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init_PageObjects()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="init_PageObjects" finished-at="2024-06-05T08:00:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_PageObjects -->
+        <test-method signature="capture_screenshot2()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="capture_screenshot2" finished-at="2024-06-05T08:00:36 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_screenshot2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="tearDown" finished-at="2024-06-05T08:00:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=capture_screenshot2 status=SUCCESS method=SampleTest.capture_screenshot2()[pri:0, instance:com.tests.SampleTest@9573584] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init_PageObjects()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="init_PageObjects" finished-at="2024-06-05T08:00:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_PageObjects -->
+        <test-method signature="capture_screenshot3()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="capture_screenshot3" finished-at="2024-06-05T08:00:36 IST" duration-ms="163" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [30] but found [3000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [30] but found [3000]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.tests.SampleTest.capture_screenshot3(SampleTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_screenshot3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="tearDown" finished-at="2024-06-05T08:00:36 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=capture_screenshot3 status=FAILURE method=SampleTest.capture_screenshot3()[pri:0, instance:com.tests.SampleTest@9573584] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.tests.SampleTest@9573584]" started-at="2024-06-05T08:00:36 IST" name="quit" finished-at="2024-06-05T08:00:37 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.tests.SampleTest -->
+      <class name="com.tests.ChromeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.ChromeTest@732d0d24]" started-at="2024-06-05T07:59:42 IST" name="setUp" finished-at="2024-06-05T07:59:56 IST" duration-ms="13120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:1, instance:com.tests.ChromeTest@732d0d24]" started-at="2024-06-05T08:00:10 IST" name="testTitle" finished-at="2024-06-05T08:00:11 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="clickOffers()[pri:2, instance:com.tests.ChromeTest@732d0d24]" started-at="2024-06-05T08:00:11 IST" name="clickOffers" finished-at="2024-06-05T08:00:13 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOffers -->
+        <test-method signature="clickOrders()[pri:3, instance:com.tests.ChromeTest@732d0d24]" started-at="2024-06-05T08:00:13 IST" name="clickOrders" finished-at="2024-06-05T08:00:16 IST" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ChromeTest@732d0d24]" started-at="2024-06-05T08:00:37 IST" name="tearDown" finished-at="2024-06-05T08:00:37 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.ChromeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
